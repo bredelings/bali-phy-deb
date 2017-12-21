@@ -1,0 +1,26 @@
+Source: bali-phy
+Section: science
+Priority: optional
+Maintainer: Benjamin Redelings <benjamin.redelings@gmail.com>
+Build-Depends: debhelper (>= 10), meson (>=0.44), libcairo2-dev
+Standards-Version: 4.1.2
+Homepage: http://www.bali-phy.org
+Tags: field::biology, field::biology:bioinformatics, implemented-in::c++,
+      interface::commandline, role::program, scope::utility, used::analysing,
+      use::comparing, works-with-format::plaintext
+Vcs-Git: https://github.com/bredelings/BAli-Phy.git
+Vcs-Browser: https://github.com/bredelings/BAli-Phy
+
+Package: bali-phy
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends}
+Description: Estimation of phylogeny and multiple alignment via MCMC
+ BAli-Phy that estimates multiple sequence alignments and evolutionary trees
+ from DNA, amino acid, or codon sequences.  BAli-Phy uses MCMC and Bayesian
+ methods to estimate evolutionary trees, positive selection, and branch
+ lengths while averaging over alternative alignments. BAli-Phy can display
+ alignment ambiguity graphically in an alignment uncertainty (AU) plot.
+ .
+ BAli-Phy can also estimate phylogenies from a fixed alignment (like MrBayes
+ and BEAST) using substitution models like GTR+gamma.  BAli-Phy automatically
+ estimates relative rates for each gene.
