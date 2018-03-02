@@ -5,9 +5,6 @@ Maintainer: Benjamin Redelings <benjamin.redelings@gmail.com>
 Build-Depends: debhelper (>= 10), meson (>=0.44), libcairo2-dev
 Standards-Version: 4.1.2
 Homepage: http://www.bali-phy.org
-Tags: field::biology, field::biology:bioinformatics, implemented-in::c++,
-      interface::commandline, role::program, scope::utility, used::analysing,
-      use::comparing, works-with-format::plaintext
 Vcs-Git: https://github.com/bredelings/BAli-Phy.git
 Vcs-Browser: https://github.com/bredelings/BAli-Phy
 
