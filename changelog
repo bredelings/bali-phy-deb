@@ -1,5 +1,5 @@
-bali-phy (3.0-beta6-1) unstable; urgency=medium
+bali-phy (3.0) unstable; urgency=medium
 
   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
 
- -- Benjamin Redelings <benjamin.redelings@gmail.com>  Wed, 20 Dec 2017 22:01:35 -0500
+ -- Benjamin Redelings <benjamin.redelings@gmail.com>  Mon, 12 Feb 2018 22:01:35 -0500
