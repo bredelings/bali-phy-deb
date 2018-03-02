@@ -11,11 +11,11 @@ Vcs-Browser: https://github.com/bredelings/BAli-Phy
 Package: bali-phy
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends}
-Description: Estimation of phylogeny and multiple alignment via MCMC
- BAli-Phy that estimates multiple sequence alignments and evolutionary trees
- from DNA, amino acid, or codon sequences.  BAli-Phy uses MCMC and Bayesian
- methods to estimate evolutionary trees, positive selection, and branch
- lengths while averaging over alternative alignments. BAli-Phy can display
+Description: Bayesian Inference of Alignment and Phylogeny
+ BAli-Phy estimates multiple sequence alignments and evolutionary trees
+ from unaligned DNA, amino acid, or codon sequences.  BAli-Phy uses MCMC 
+ to estimate evolutionary trees, positive selection, and branch lengths 
+ while averaging over alternative alignments. BAli-Phy can display
  alignment ambiguity graphically in an alignment uncertainty (AU) plot.
  .
  BAli-Phy can also estimate phylogenies from a fixed alignment (like MrBayes
