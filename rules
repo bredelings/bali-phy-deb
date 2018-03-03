@@ -15,6 +15,7 @@
 
 
 %:
+	rm -f configure.ac
 	dh $@
 
 
