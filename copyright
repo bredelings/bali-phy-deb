@@ -1,20 +1,23 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: bali-phy
-Source: <url://example.com>
+Source: http://www.bali-phy.com
 
 Files: *
-Copyright: 2004-2017 Benjamin Redelings <benjamin.redelings@gmail.com>
+Copyright: 2004-2018 Benjamin Redelings <benjamin.redelings@gmail.com>
 License: GPL-2.0+
 
 Files: debian/*
-Copyright: 2017 Benjamin Redelings <benjamin.redelings@gmail.com>
+Copyright: 2018 Benjamin Redelings <benjamin.redelings@gmail.com>
 License: GPL-2.0+
 
-Files: boost/*
+Files: external/boost/*
 License: BOOST Software License 1.0
 
-Files: include/Eigen/*
+Files: external/eigen3/*
 License: MPL2
+
+Files: external/nlohmann/*
+License: MIT
 
 Files: src/dlfcn-win32/*
 License: LGPL-2.1+
@@ -35,8 +38,3 @@ License: GPL-2.0+
  .
  On Debian systems, the complete text of the GNU General
  Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
-
-# Please also look if there are files or directories which have a
-# different copyright/license attached and list them here.
-# Please avoid picking licenses with terms that are more restrictive than the
-# packaged work, as it may make Debian's contributions unacceptable upstream.
