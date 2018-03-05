@@ -19,7 +19,7 @@ License: GPL-2.0+
 
 Files: external/boost/*
 Copyright: See individual source files
-License: BOOST Software License 1.0
+License: BSL-1.0
  This software is a collection of libraries from the Boost.org site.
  Most of the libraries use the Boost Software License 1.0, which
  reads as follows.
