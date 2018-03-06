@@ -6,16 +6,10 @@ Source: http://www.bali-phy.com
 Files: *
 Copyright: 2004-2018 Benjamin Redelings <benjamin.redelings@gmail.com>
 License: GPL-2.0+
- On Debian systems, the complete text of the GNU General
- Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
-
 
 Files: debian/*
 Copyright: 2018 Benjamin Redelings <benjamin.redelings@gmail.com>
 License: GPL-2.0+
- On Debian systems, the complete text of the GNU General
- Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
-
 
 Files: external/boost/*
 Copyright: See individual source files
@@ -76,7 +70,7 @@ License: BSL-1.0
     the standard version found on the Boost web site.
 
 
-Files: external/nlohmann/json.hpp
+Files: external/nlohmann/nlohmann/json.hpp
 Copyright: Niels Lohmann
 License: MIT
  On Debian systems, the complete text of the MIT License can be found
@@ -86,9 +80,6 @@ License: MIT
 Files: src/dlfcn-win32/*
 Copyright: Ramiro Polla
 License: LGPL-2.1+
- On Debian systems, the complete text of the GNU Lesser General Public
- License 2.1 can be found in the file `/usr/share/common-licenses/LGPL-2.1'.
-
 
 Files: external/eigen3/*
 Copyright: 2006-2013 Benoit Jacob <jacob@math.jussieu.fr>
@@ -96,15 +87,22 @@ Copyright: 2006-2013 Benoit Jacob <jacob@math.jussieu.fr>
            2007 Michael Olbrich <michael.olbrich@gmx.net>
            2008 Konstantinos Margaritis <markos@codex.gr>
 License: MPL-2.0
- On Debian systems, the complete text of the Mozilla Public License
- Version 2.0 can be found in the file `/usr/share/common-licenses/MPL-2.0'.
 
+Files: external/eigen3/Eigen/src/SparseCholesky/SimplicialCholesky_impl.h
+Copyright: Timothy A. Davis
+License: LGPL-2.1+
 
-Files: external/eigen3/unsupported/test/mpreal/* unsupported/Eigen/src/IterativeSolvers/* Eigen/src/SparseCholesky/SimplicialCholesky.h Eigen/src/OrderingMethods/Amd.h
-Copyright: 2002-2007 Yves Renard
-           2008-2009 Gael Guennebaud <g.gael@free.fr>
-License: LGPL-2.1+ or MPL-2
+Files: external/eigen3/unsupported/Eigen/src/Eigenvalues/ArpackSelfAdjointEigenSolver.h
+Copyright: 2002 David Harmon
+License: LGPL-2.1+
 
+Files: unsupported/Eigen/src/IterativeSolvers/IterationController.h
+Copyright 2002-Yves Renard
+License: LGPL-2.1+
+
+Files: external/eigen3/Eigen/src/OrderingMethods/Amd.h unsupported/Eigen/src/IterativeSolvers/ConstrainedConjGrad.h
+Copyright: 2008-2009 Gael Guennebaud <g.gael@free.fr>
+License: LGPL-2.1+
 
 Files: external/eigen3/Eigen/src/Cholesky/LLT_LAPACKE.h external/eigen3/Eigen/src/QR/HouseholderQR_LAPACKE.h external/eigen3/Eigen/src/QR/ColPivHouseholderQR_LAPACKE.h external/eigen3/Eigen/src/LU/arch/Inverse_SSE.h external/eigen3/Eigen/src/LU/PartialPivLU_LAPACKE.h external/eigen3/Eigen/src/Eigenvalues/ComplexSchur_LAPACKE.h external/eigen3/Eigen/src/Eigenvalues/SelfAdjointEigenSolver_LAPACKE.h external/eigen3/Eigen/src/Eigenvalues/RealSchur_LAPACKE.h external/eigen3/Eigen/src/PardisoSupport/PardisoSupport.h external/eigen3/Eigen/src/misc/lapacke.h external/eigen3/Eigen/src/SVD/JacobiSVD_LAPACKE.h external/eigen3/Eigen/src/Core/Assign_MKL.h external/eigen3/Eigen/src/Core/products/GeneralMatrixMatrixTriangular_BLAS.h external/eigen3/Eigen/src/Core/products/TriangularMatrixMatrix_BLAS.h external/eigen3/Eigen/src/Core/products/TriangularMatrixVector_BLAS.h external/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector_BLAS.h external/eigen3/Eigen/src/Core/products/TriangularSolverMatrix_BLAS.h external/eigen3/Eigen/src/Core/products/GeneralMatrixVector_BLAS.h external/eigen3/Eigen/src/Core/products/GeneralMatrixMatrix_BLAS.h external/eigen3/Eigen/src/Core/products/SelfadjointMatrixMatrix_BLAS.h external/eigen3/Eigen/src/Core/util/MKL_support.h
 Copyright: 2011 Intel Corporation
@@ -133,3 +131,18 @@ License: BSD-3-clause
  ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
  SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+
+License: MPL-2.0
+ On Debian systems, the complete text of the Mozilla Public License
+ Version 2.0 can be found in the file `/usr/share/common-licenses/MPL-2.0'.
+
+License: GPL-2.0+
+ On Debian systems, the complete text of the GNU General
+ Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+
+License: LGPL-2.1+
+ On Debian systems, the complete text of the GNU Lesser General Public
+ License 2.1 can be found in the file `/usr/share/common-licenses/LGPL-2.1'.
+
+
