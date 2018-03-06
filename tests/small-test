@@ -1,0 +1,2 @@
+#!/bin/sh
+bali-phy /usr/share/bali-phy/examples/sequences/5S-rRNA/5d.fasta --test --seed=0
