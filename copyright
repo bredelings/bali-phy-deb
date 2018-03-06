@@ -96,11 +96,11 @@ Files: external/eigen3/unsupported/Eigen/src/Eigenvalues/ArpackSelfAdjointEigenS
 Copyright: 2002 David Harmon
 License: LGPL-2.1+
 
-Files: unsupported/Eigen/src/IterativeSolvers/IterationController.h
+Files: external/eigen3/unsupported/Eigen/src/IterativeSolvers/IterationController.h
 Copyright: 2002 Yves Renard
 License: LGPL-2.1+
 
-Files: external/eigen3/Eigen/src/OrderingMethods/Amd.h unsupported/Eigen/src/IterativeSolvers/ConstrainedConjGrad.h
+Files: external/eigen3/Eigen/src/OrderingMethods/Amd.h external/eigen3/unsupported/Eigen/src/IterativeSolvers/ConstrainedConjGrad.h
 Copyright: 2008-2009 Gael Guennebaud <g.gael@free.fr>
 License: LGPL-2.1+
 
