@@ -1,19 +1,16 @@
 #!/usr/bin/make -f
 
+# Turn on hardening options for compilation.
 export DEB_BUILD_MAINT_OPTIONS = hardening=+all
 
 # Add an -O3 at the end to override the O2 we can't get rid of.
 export DEB_CFLAGS_MAINT_APPEND = -O3
 export DEB_CXXFLAGS_MAINT_APPEND = -O3
 
-# Use debhelper
+# Use debhelper.
 %:
 	dh $@ --buildsystem=meson
 
 # Tell meson not to install the extra tools
 override_dh_auto_configure:
 	dh_auto_configure -- -Dextra-tools=false
-
-# Don't strip bali-phy, or it can't load plugins
-override_dh_strip:
-	dh_strip -Xbali-phy
