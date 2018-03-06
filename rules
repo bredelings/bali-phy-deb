@@ -9,6 +9,7 @@ export DEB_CXXFLAGS_MAINT_APPEND = -O3
 
 # Use debhelper.
 %:
+	rm -f bootstrap.sh
 	dh $@ --buildsystem=meson
 
 # Tell meson not to install the extra tools
