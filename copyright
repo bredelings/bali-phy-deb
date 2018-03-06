@@ -97,7 +97,7 @@ Copyright: 2002 David Harmon
 License: LGPL-2.1+
 
 Files: unsupported/Eigen/src/IterativeSolvers/IterationController.h
-Copyright 2002-Yves Renard
+Copyright: 2002 Yves Renard
 License: LGPL-2.1+
 
 Files: external/eigen3/Eigen/src/OrderingMethods/Amd.h unsupported/Eigen/src/IterativeSolvers/ConstrainedConjGrad.h
