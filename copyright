@@ -90,8 +90,6 @@ License: BSL-1.0
 Files: external/nlohmann/nlohmann/json.hpp
 Copyright: Niels Lohmann
 License: MIT
- On Debian systems, the complete text of the MIT License can be found
- in the file `/usr/share/common-licenses/MIT'.
 
 
 Files: src/dlfcn-win32/*
@@ -168,7 +166,7 @@ License: FSFAP
  and this notice are preserved. This file is offered as-is, without any
  warranty.
 
-Licence: MIT
+License: MIT
  Permission is hereby granted, free of charge, to any person obtaining a
  copy of this software and associated documentation files (the "Software"),
  to deal in the Software without restriction, including without limitation
