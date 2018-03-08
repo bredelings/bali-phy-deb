@@ -2,7 +2,6 @@ Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: bali-phy
 Source: http://www.bali-phy.com
 
-
 Files: *
 Copyright: 2004-2018 Benjamin Redelings <benjamin.redelings@gmail.com>
 License: GPL-2.0+
@@ -16,17 +15,16 @@ Copyright: Copyright © 2004 Scott James Remnant <scott@netsplit.com>
 License: GPL-2.0+
 
 Files: m4/ax_cxx_compile_stdcxx_14.m4
-Copyright:  Copyright (c) 2008 Benjamin Kosnik <bkoz@redhat.com>
-            Copyright (c) 2012 Zack Weinberg <zackw@panix.com>
-            Copyright (c) 2013 Roy Stogner <roystgnr@ices.utexas.edu>
-            Copyright (c) 2014 Alexey Sokolov <sokolov@google.com>
+Copyright: Copyright (c) 2008 Benjamin Kosnik <bkoz@redhat.com>
+           Copyright (c) 2012 Zack Weinberg <zackw@panix.com>
+           Copyright (c) 2013 Roy Stogner <roystgnr@ices.utexas.edu>
+           Copyright (c) 2014 Alexey Sokolov <sokolov@google.com>
 License: FSFAP
 
 Files: scripts/git_version.sh
 Copyright: Copyright (c) 2006-2007 Luc Verhaegen <libv@skynet.be>
            Copyright (C) 2007-2008 Hans Ulrich Niedermann <hun@n-dimensional.de>
-License: MIT
-
+License: Expat
 
 Files: external/boost/*
 Copyright: See individual source files
@@ -86,21 +84,19 @@ License: BSL-1.0
     May restrict the use of the name and description of the library to
     the standard version found on the Boost web site.
 
-
 Files: external/nlohmann/nlohmann/json.hpp
 Copyright: Niels Lohmann
-License: MIT
-
+License: Expat
 
 Files: src/dlfcn-win32/*
 Copyright: Ramiro Polla
 License: LGPL-2.1+
 
 Files: external/eigen3/*
-Copyright: 2006-2013 Benoit Jacob <jacob@math.jussieu.fr>
-           2008-2013 Gael Guennebaud <g.gael@free.fr>
-           2007 Michael Olbrich <michael.olbrich@gmx.net>
-           2008 Konstantinos Margaritis <markos@codex.gr>
+Copyright: Copyright (c) 2006-2013 Benoit Jacob <jacob@math.jussieu.fr>
+	   Copyright (c) 2008-2013 Gael Guennebaud <g.gael@free.fr>
+	   Copyright (c) 2007 Michael Olbrich <michael.olbrich@gmx.net>
+           Copyright (c) 2008 Konstantinos Margaritis <markos@codex.gr>
 License: MPL-2.0
 
 Files: external/eigen3/Eigen/src/SparseCholesky/SimplicialCholesky_impl.h
@@ -147,26 +143,7 @@ License: BSD-3-clause
  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
  SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-
-License: MPL-2.0
- On Debian systems, the complete text of the Mozilla Public License
- Version 2.0 can be found in the file `/usr/share/common-licenses/MPL-2.0'.
-
-License: GPL-2.0+
- On Debian systems, the complete text of the GNU General
- Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
-
-License: LGPL-2.1+
- On Debian systems, the complete text of the GNU Lesser General Public
- License 2.1 can be found in the file `/usr/share/common-licenses/LGPL-2.1'.
-
-License: FSFAP
- Copying and distribution of this file, with or without modification, are
- permitted in any medium without royalty provided the copyright notice
- and this notice are preserved. This file is offered as-is, without any
- warranty.
-
-License: MIT
+License: Expat
  Permission is hereby granted, free of charge, to any person obtaining a
  copy of this software and associated documentation files (the "Software"),
  to deal in the Software without restriction, including without limitation
@@ -184,3 +161,21 @@ License: MIT
  OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
  ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
  OTHER DEALINGS IN THE SOFTWARE.
+
+License: FSFAP
+ Copying and distribution of this file, with or without modification, are
+ permitted in any medium without royalty provided the copyright notice
+ and this notice are preserved. This file is offered as-is, without any
+ warranty.
+
+License: GPL-2.0+
+ On Debian systems, the complete text of the GNU General
+ Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+
+License: LGPL-2.1+
+ On Debian systems, the complete text of the GNU Lesser General Public
+ License 2.1 can be found in the file `/usr/share/common-licenses/LGPL-2.1'.
+
+License: MPL-2.0
+ On Debian systems, the complete text of the Mozilla Public License
+ Version 2.0 can be found in the file `/usr/share/common-licenses/MPL-2.0'.
